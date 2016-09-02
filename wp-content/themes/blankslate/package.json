@@ -1,0 +1,23 @@
+{
+  "name": "burger-van-finder",
+  "version": "1.0.0",
+  "description": "Builder for burger van finder",
+  "author": "",
+  "private": true,
+  "devDependencies": {
+
+    "grunt": "",
+    "grunt-cli": "",
+
+    "grunt-contrib-clean": "",
+    "grunt-contrib-concat": "",
+    "grunt-contrib-connect": "",
+    "grunt-contrib-copy": "",
+    "grunt-contrib-sass": "",
+    "grunt-contrib-uglify": "",
+    "grunt-contrib-watch": "",
+
+    "grunt-include-replace": ""
+
+  }
+}
