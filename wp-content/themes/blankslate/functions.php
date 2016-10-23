@@ -65,3 +65,13 @@ return count( $comments_by_type['comment'] );
 return $count;
 }
 }
+
+function my_acf_google_map_api( $api ){
+	
+	$api['key'] = 'AIzaSyAcJo0L0g0dSrV6mh8d1FU01gr4ecIcjko';
+	
+	return $api;
+	
+}
+
+add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');
